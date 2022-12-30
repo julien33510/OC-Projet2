@@ -1,4 +1,33 @@
-.body{
+body{
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
     
+}
+
+header
+{
+    display:flex;
+    justify-content:space-between;
+    height: 126px;
+}
+
+#logo_booki 
+{
+    width: auto;
+    height: 19px;
+    padding-top: 44px;
+    padding-left: 55px;
+}
+
+.nav-bar
+{
+    display: flex;
+    /* padding-right: 2px;*/
+}
+
+.nav-bar > li
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 67px;
 }
